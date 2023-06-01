@@ -1,0 +1,71 @@
+body {
+    background-image: url(https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-shadow: 0 0 10px black;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 30%;
+    margin:auto;
+    margin-top: 20px;
+    padding: 30px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-size: 15px;;
+}
+
+h1, h2, p {
+    text-align: center;
+    margin-bottom: auto;;
+    color: white;
+}
+
+article {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.block-item {
+    display:block;
+    width: 100%;
+    margin-top: 10px;
+    height: 35px;
+}
+
+input[type="radio"] {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.question {
+    font-size: 18px;
+}
+
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    background: black;
+    color: white;
+}
+
+.button {
+    width: 100%;
+    min-height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: gold;
+    font-size: 15px;
+    border: none;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form Project</title>
+</head>
+<body>
+
+<h1 id="title"><strong>Welcome to Survey Form</strong></h1>
+<p id="description"><strong>Thank you for your time</strong></Thank></p>#
+
+
+<form id="survey-form">
+
+    <article>
+        <label class="question" id="name-label" for="name">Name<input class="block-item" id="name" type="text" placeholder="Enter your name"required></input></label>
+    </article>
+
+    <article>
+        <label class="question" id="email-label" for="email">Email<input  class="block-item" id="email" type="email" placeholder="Enter your email" required></input></label>
+    </article>
+
+    <article>
+        <label class="question" id="number-label" for="number">Age (optional)<input  class="block-item" id="number" type="number" min="10" max="100" placeholder="25"></input></label>
+    </article>
+
+    <article>
+        <label class="question" id="dropdown-label" for="dropdown">I like computers</label><select  class="block-item" id="dropdown">
+        <option disabled selected>Select one</option>
+        <option value="1">Yes</option>
+        <option value="2">No</option>
+    </select>
+</article>
+
+    
+    <article>
+        <label class="question">Would you like to buy me a coffee?</label>
+        <label class="block-item" id="radio1-label"><input type="radio" id="radio1" name="radio-options" value="1" checked >Natürlich</input></label>
+        <label id="radio2-label"><input type="radio" id="radio2" name="radio-options" value="2">Nein</input></label>
+    </article>
+
+    <article>
+        <label class="question" class="block-item">What else can you give me?</label>
+        <label class="block-item"><input type="checkbox" id="money" value="1" name="checkbox-options" /><label for="money">Money</label></label>
+        <label class="block-item"><input type="checkbox" id="things" value="2" name="checkbox-options" /><label for="things">Things</label></label>
+        <label class="block-item"><input type="checkbox" id="food" value="3" name="checkbox-options" /><label for="food">Food</label></label>
+    </article>
+
+    <article>
+        <label class="question" id="textarea-label" for="textarea">Write your comments here: 
+        <textarea class="block-item" id="textarea" placeholder="Enter your comments here"></textarea></label>
+    </article>
+
+    <button class="button" type="submit" id="submit"><strong>SUBMIT</strong></button>
+
+</form>
+</body>
+</html>
